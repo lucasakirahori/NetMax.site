@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - NetMax</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap" rel="stylesheet">
+<link rel="icon" href="../imagens/Logo1.png">
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo"><img src="../imagens/Logo1.png" width="75px" height="75px"> <span>NetMax</span></a>
+    
+        <div class="main">
+            <a href="../login/login.html" class="user"><i class="ri-user-fill"></i>Login</a>
+            <a href="../registre/cadastro.html">Registre-se</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!--Início da janela de Cadastro-->
+    
+    <main>
+
+        <section class="login_container">
+
+        <div class="login_window">
+            <div class="titulo_login">
+                <h3 class="label_login"><strong>Registre-se</strong></h3>
+            </div>
+
+            <div class="div_form">
+                <form>
+                    <label><h6 class="label_titulo">Nome</h6></label>
+                    <input type="name" class="type_space" placeholder=" Nome" size="40px" id="nome">
+
+                    <label><h6 class="label_titulo">E-mail</h6></label>
+                    <input type="email" class="type_space"  placeholder=" E-mail" id="email" size="40px">
+
+                    <label><h6 class="label_titulo">Senha</h6></label>
+                    <input type="password" class="type_space" placeholder=" Senha" id="password" size="40px">
+
+                    <label><h6 class="label_titulo">Endereço &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Estado</h6></label>
+                    <input type="text" class="type_space" placeholder=" Ex: Rua -- --, N°" id="adress" size="20px" style="margin-right: 55px;"> <select style="margin-right: 25px;">
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+
+                    <label><h6 class="label_titulo">Número de telefone</h6></label>
+                    <input type="tel" class="type_space" placeholder=" +55 xxxx-xxxx" id="tel" size="40px">
+
+                    <label><h6 class="label_titulo">CPF <q style="font-size: 15px;">OBS: Digite sem os sinais</q></h6></label>
+                    <input type="number" class="type_space" placeholder=" 000.000.000.00" id="cpf" size="40px" style="margin-right: 140px;">
+
+                    <label><h6 class="label_titulo">Data de nascimento</h6></label>
+                    <input type="date" class="type_space" id="birth" size="40px" style="margin-right: 170px;">
+                </form>
+            </div>
+
+            <div style="padding-top: 25px; padding-bottom: 25px;">
+                <button type="submit" class="button_submit" onclick="val_reg()">Entrar</button>
+            </div>
+
+            <div style="padding-top: 25px; padding-bottom: 25px;">
+                <h6>Já tem login? | <a href="../login/login.html">Entrar</a></h6>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <script src="validation.js"></script>
+    
+    <!--Fim da janela de Cadastro-->
+
+    <!--Fim da janela de Login-->
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__bottom">
+                <span class="copyright">&copy; 2023 Company. NetMax.</span>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

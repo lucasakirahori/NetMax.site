@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetMax - Sinta-se conectado</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap" rel="stylesheet">
+<link rel="icon" href="imagens/Logo1.png">
+</head>
+<body>
+<header>
+    <a href="index.html" class="logo"><img src="imagens/Logo1.png" width="75px" height="75px"> <span>NetMax</span></a>
+    <ul class="navbar">
+        <li>
+            <a href="index.html" class="active">Home</a>
+        </li>
+        <li class="nav-planos">
+            <input type="checkbox" id="check">
+            <label for="check" class="btn-check">Planos</label>
+            <ul class="menu-secundario">
+                <li>
+                    <a href="pagina-planos/dados-moveis.html">Dados Móveis</a>
+                </li>
+                <li>
+                    <a href="pagina-planos/internet-fixa.html">Internet Fixa</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="contatos/contatos.html">Contatos</a>
+        </li>
+    </ul>
+
+    <div class="main">
+        <a href="login/login.html" class="user"><i class="ri-user-fill"></i>Login</a>
+        <a href="registre/cadastro.html">Registre-se</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+<script src="script.js"></script><BR><BR><BR><BR><BR><BR>
+
+<!--Planos-->
+
+<section class="container">
+    
+    <a href="pagina-planos/dados-moveis.html"> <img class="principal" src="imagens/plano_principal2.png"></a>
+
+    <!-- INICIO CONTEUDO-->
+    
+    
+    <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5511983067595" target="_blank">
+    <i class="ri-whatsapp-line"></i>
+    </a>
+    <p class="vendedor"> Vendedor Online</p>
+
+    <!-- FIM CONTEUDO-->
+    <h2 class="title">
+        <br><span class="primary"><BR>Escolha seu plano MAX</span>
+        <span class="secondary">
+            Planos promocionais NetMax.
+        </span>
+    </h2>
+    <div class="gallery-wrapper">
+        <figure class="gallery-item">
+            <a href="pagina-planos/dados-moveis.html"><img src="imagens/1.1.jpg" alt="" class="item-image" /></a>
+            <figcaption class="item-description">
+                
+                <h2 class="name"><i class="ri-wifi-line">&nbsp;</i>Max Família<BR> 100MEGA</h2>
+            </figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <a href="pagina-planos/dados-moveis.html"><img src="imagens/2.2.jpg" alt="" class="item-image" /></a>
+            <figcaption class="item-description">
+                <h2 class="name"><i class="ri-wifi-line">&nbsp;</i>Max Internacional<BR> 10GB por semana!</h2>
+            </figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <a href="pagina-planos/internet-fixa.html"><img src="imagens/3.3.jpg" alt="" class="item-image" /></a>
+            <figcaption class="item-description">
+                
+                <h2 class="name"><i class="ri-wifi-line">&nbsp;</i>Max Gaming<BR> 500MEGA</h2>
+                <!-- <span class="role">por: R$ 117,78 </span> -->
+            </figcaption>
+        </figure>
+        
+    </div>
+</section><br><br><br><br><br><br><br><br>
+<!-- INICIO NOVIDADES-->
+<div class="subscribe">
+    <p>Fique por dentro</p>
+    <input placeholder="Insira o seu email aqui*" class="subscribe-input" name="email" type="email">
+  
+    <div class="submit-btn" onclick="clique_botao()" >Participar</div>
+  
+  </div>
+<section class="container">
+<h2 class="title">
+    <br><span class="primary"><BR>Autoatendimento</span>
+    <span class="secondary">
+        Facilite seu dia a dia! Confira as principais soluções do autoatendimento da NETMAX.
+    </span>
+</h2>
+</section>
+<!-- FIM NOVIDADES-->
+<!-- INICIO AUTOATENDIMENTO-->
+<section class="cards">
+    <a href="#"><article class="card"><p>2ª via da <br>fatura</p></article></a>
+    <a href="#"><article class="card"><p class="wifi">Configurar <br>Wi-Fi</p></article></a>
+    <a href="#"><article class="card"><p class="consumo">Consumo <br>de internet</p></article></a>
+</section>
+<!-- FINAL AUTOATENDIMENTO-->
+
+<!-- INICIO DUVIDAS-->
+<section class="duvidas" >
+    <div class="accordion">
+        <h2 class="title-duvidas">Possui alguma dúvida?</h2>
+        <article class="accordion-panel">
+            <input id="accordion-question" name="accordion" type="radio" checked />
+            <label for="accordion-question">
+                Minha internet está apresentando oscilações e/ou está lenta. O que eu posso fazer?
+                <i class="ri-add-line open"></i>
+                <i class="ri-subtract-line close"></i>
+            </label>
+            <div class="accordion-body">
+                <p class="accordion-answer">
+                    Temos algumas dicas que podem te ajudar:<br><br>
+                    Se você estiver conectado via WiFi, por favor realize o teste de velocidade (no site brasilbandalarga) com um cabo conectado diretamente ao modem/roteador, pois somente assim garantimos a performance de banda, pois via wiFi podem ocorrer interferências e/ou oscilações externas.<br><br>
+                    Caso você não tenha um cabo de rede ou não tenha um computador para conectar diretamente aos equipamentos, o teste de velocidade poderá ser realizado via wiFi porém com as ressalvas acima.<br><br>
+                    Você também pode desligar o aparelho (modem) e aguardar 2 minutos e religar. Em muitos casos, esse reset funciona e a internet volta ao normal.
+                </p>
+            </div>
+        </article>
+
+        <article class="accordion-panel">
+            <input id="accordion-question-2" name="accordion" type="radio" />
+            <label for="accordion-question-2">
+                Como garantir melhor conexão com meu wifi?
+                <i class="ri-add-line open"></i>
+                <i class="ri-subtract-line close"></i>
+            </label>
+            <div class="accordion-body">
+                <p class="accordion-answer">
+                  Para uma boa conexão, devemos deixar o roteador longe de eletronicos. EX: Telefones, Micro-Ondas, TV, entre outros.<br><br>
+                  Devemos manter o roteador centralizado na casa para que o sinal pegue em todos os comodos e com as antena apontada para cima.<br>
+                  Assim garatimos uma boa conexão com o Wifi.
+                </p>
+            </div>
+        </article>
+
+        <article class="accordion-panel">
+            <input id="accordion-question-3" name="accordion" type="radio" />
+            <label for="accordion-question-3">
+                O que é a velocidade de upload?
+                <i class="ri-add-line open"></i>
+                <i class="ri-subtract-line close"></i>
+            </label>
+            <div class="accordion-body">
+                <p class="accordion-answer">
+                    É a velocidade de envio de dados (como um arquivo, e-mail, foto, etc) de um computador em um local para um computador ou servidor em outro local, através da Internet.<br><br>
+                    A velocidade de upload é geralmente muito menor do que a velocidade de download. <br><br>
+                    A razão para isso é que as pessoas, ao acessar a Internet, geralmente fazem mais download do que upload.
+                </p>
+            </div>
+        </article>
+
+        <article class="accordion-panel">
+            <input id="accordion-question-4" name="accordion" type="radio" />
+            <label for="accordion-question-4">
+                O que é a velocidade de download?
+                <i class="ri-add-line open"></i>
+                <i class="ri-subtract-line close"></i>
+            </label>
+            <div class="accordion-body">
+                <p class="accordion-answer">
+                    É a velocidade de recebimento de dados (como um arquivo, vídeo, etc) de outro computador ou servidor para um computador local através da Internet. <br><br>
+                    Usuários domésticos tendem a realizar mais downloads do que uploads.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+<!-- FINAL DUVIDAS-->
+<!-- INICIO FOOTER-->
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d768.714370321539!2d-46.6959468451018!3d-23.632655765240575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f1b5c470b9%3A0x61965923873629e3!2sUNIP%20-%20Ch%C3%A1cara%20Santo%20Ant%C3%B4nio%20II!5e0!3m2!1spt-BR!2sbr!4v1682023192565!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div>
+                <h6 class="footer__title">Atendimento</h6>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Perguntas Frequentes</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Trocar de Plano</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Reclamações / Sugestões / Elogios</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Cancelamento de Plano</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="footer__title">Instituição NetMax</h6>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="sobre_nos/sobrenos.html" class="footer__list-link">Sobre nós</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Políticas</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Programas Parceiros</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">Trabalhe Conosco</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="sustentabilidade/sustentabilidade.html" class="footer__list-link">Sustentabilidade</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="footer__divider">
+
+        <div class="footer__bottom">
+            <span class="copyright">&copy; 2023 Company. NetMax.</span>
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- FINAL FOOTER-->
+</body>
+</html>
+        
