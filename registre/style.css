@@ -252,12 +252,10 @@ header{
     max-height: 450px;
     margin-top: 200px;
     padding: 10px;
-    text-align: center;
     background-color: #88cae2;
     border-radius: 15px;
     font-size: 20pt;
     margin-bottom: 150px;
-    align-items: center;
 }
 
 
@@ -282,7 +280,9 @@ header{
     padding-top: 12px;
 }
 
+
 .type_space{
+    width: 300px;
     padding-top: 4px;
     border-radius: 15px;
     height: 40px;
@@ -294,6 +294,25 @@ header{
     width: 200px;
     border-radius: 15px;
     font-size: 15pt;
+}
+
+.div-btn-submit{
+    text-align: center;
+}
+
+.div-login-bottom{
+    text-align: center;
+}
+
+@media(max-width: 550px){
+    .login_window{
+        max-width: 50%;
+    }
+
+    .div_form{
+        max-width: 50%;
+    }
+
 }
 
 /* FOOTER */

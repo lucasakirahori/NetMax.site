@@ -38,16 +38,19 @@
             <div class="div_form">
                 <form>
                     <label><h6 class="label_titulo">Nome</h6></label>
-                    <input type="name" class="type_space" placeholder=" Nome" size="40px" id="nome">
+                    <input type="name" class="type_space" placeholder=" Nome" id="nome" style="margin-right: 0px;">
 
                     <label><h6 class="label_titulo">E-mail</h6></label>
-                    <input type="email" class="type_space"  placeholder=" E-mail" id="email" size="40px">
+                    <input type="email" class="type_space"  placeholder=" E-mail" id="email" style="margin-right: 0px;">
 
                     <label><h6 class="label_titulo">Senha</h6></label>
-                    <input type="password" class="type_space" placeholder=" Senha" id="password" size="40px">
+                    <input type="password" class="type_space" placeholder=" Senha" id="password" style="margin-right: 0px;">
 
-                    <label><h6 class="label_titulo">Endereço &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Estado</h6></label>
-                    <input type="text" class="type_space" placeholder=" Ex: Rua -- --, N°" id="adress" size="20px" style="margin-right: 55px;"> <select style="margin-right: 25px;">
+                    <label><h6 class="label_titulo">Endereço</h6></label>
+                    <input type="text" class="type_space" placeholder=" Ex: Rua -- --, N°" id="adress" style="margin-right: 0px;">
+
+                    <label><h6 class="label_titulo">Estado</h6></label>
+                    <select>
                         <option>AC</option>
                         <option>AL</option>
                         <option>AP</option>
@@ -77,21 +80,21 @@
                     </select>
 
                     <label><h6 class="label_titulo">Número de telefone</h6></label>
-                    <input type="tel" class="type_space" placeholder=" +55 xxxx-xxxx" id="tel" size="40px">
+                    <input type="tel" class="type_space" placeholder=" +55 xxxx-xxxx" id="tel" style="margin-right: 0px;">
 
                     <label><h6 class="label_titulo">CPF <q style="font-size: 15px;">OBS: Digite sem os sinais</q></h6></label>
-                    <input type="number" class="type_space" placeholder=" 000.000.000.00" id="cpf" size="40px" style="margin-right: 140px;">
+                    <input type="number" class="type_space" placeholder=" 000.000.000.00" id="cpf" style="margin-right: 0px;">
 
                     <label><h6 class="label_titulo">Data de nascimento</h6></label>
-                    <input type="date" class="type_space" id="birth" size="40px" style="margin-right: 170px;">
+                    <input type="date" class="type_space" id="birth" style="margin-right: 0px;">
                 </form>
             </div>
 
-            <div style="padding-top: 25px; padding-bottom: 25px;">
+            <div style="padding-top: 25px; padding-bottom: 25px;" class="div-btn-submit">
                 <button type="submit" class="button_submit" onclick="val_reg()">Entrar</button>
             </div>
 
-            <div style="padding-top: 25px; padding-bottom: 25px;">
+            <div style="padding-top: 25px; padding-bottom: 25px;" class="div-login-bottom">
                 <h6>Já tem login? | <a href="../login/login.html">Entrar</a></h6>
             </div>
         </div>

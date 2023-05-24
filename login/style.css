@@ -259,6 +259,8 @@ header{
     font-size: 20pt;
     margin-bottom: 150px;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -284,6 +286,7 @@ header{
 }
 
 .type_space{
+    width: 300px;
     padding-top: 4px;
     border-radius: 15px;
     height: 40px;
@@ -296,6 +299,8 @@ header{
     border-radius: 15px;
     font-size: 15pt;
 }
+
+
 
 /* FOOTER */
 
